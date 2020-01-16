@@ -1,4 +1,32 @@
-/*--A Design by W3layouts 
+/* PERSONAL STYLES */
+html, body {
+	background: #e8e6c2;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.preloader {
+	display: block;
+	position: fixed;
+	width: 100%; height: 100%;
+	z-index: 9999; top: 0;
+	background: #e8e6c2;
+}
+
+.clouds{
+  background:url(img/clouds.jpg) repeat 0 bottom;
+  width:300px; height:300px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+/*--A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -26,7 +54,7 @@ body a{
  ul{
 	padding: 0;
 	margin: 0;
-	
+
 }
 h1,h2,h3,h4,h5,h6,p,label{
 	margin:0;
@@ -40,9 +68,9 @@ h1,h2,h3,h4,h5,h6,p,label{
 }
 .top-nav ul li{
 	display: inline-block;
-	float: left;	
+	float: left;
 	padding: 15px 0;
-	border-top: 1px solid #fff;	
+	border-top: 1px solid #fff;
 }
 .top-nav ul li a{
 	font-size: 0.9em;
@@ -52,7 +80,7 @@ h1,h2,h3,h4,h5,h6,p,label{
 	display:block;
 	border-right: 1px solid #cecece;
 	font-family: 'Michroma';
-	
+
 }
 .top-nav ul li a:hover,.top-nav ul li.active a{
 	color: #FD4641;
@@ -89,9 +117,9 @@ h1,h2,h3,h4,h5,h6,p,label{
 	color: #A9A9A9;
 	font-family: 'Michroma';
 }
-.search input[type="submit"] {	
+.search input[type="submit"] {
 	width: 20px;
-	height: 20px;	
+	height: 20px;
 	background:url(../images/img-sprite.png)no-repeat -2px -4px;
 	border: none;
 	cursor: pointer;
@@ -148,7 +176,7 @@ h1,h2,h3,h4,h5,h6,p,label{
   text-align: center;
 }
 .welcome-top ul li{
- 	list-style: none;	
+ 	list-style: none;
 }
 .welcome-top ul li a{
  	text-decoration: none;
@@ -158,7 +186,7 @@ h1,h2,h3,h4,h5,h6,p,label{
  	display: block;
 }
 .welcome-top ul li a:hover{
- 	
+
  	color:#37b48e;
 }
 .welcome-top ul li i{
@@ -221,7 +249,7 @@ h1,h2,h3,h4,h5,h6,p,label{
   text-transform: uppercase;
    position:relative;
   text-align: center;
-  
+
 }
 .six h4:after{
     content: '';
@@ -239,7 +267,7 @@ h1,h2,h3,h4,h5,h6,p,label{
 	  font-size: 20px;
 }
 .six h6{
-	float:right;	
+	float:right;
 	font-size:1.5em;
 	  margin-top: 7%;
   width: 77%;
@@ -359,7 +387,7 @@ h1,h2,h3,h4,h5,h6,p,label{
   padding: 2em 0;
 }
 ul.social li{
-	display: inline-block;	
+	display: inline-block;
 }
 ul.social li  i{
 	background: url(../images/img-sprite.png)no-repeat -4px -36px ;
@@ -436,7 +464,7 @@ p.footer-class {
 .bottom-about h4,.use-bottom h4{
   line-height: 1.5em;
   font-size: 1.4em;
-  margin: 1em 0 0em 0; 
+  margin: 1em 0 0em 0;
   color:#37B48E;
 }
 .bottom-about ul li{
@@ -453,7 +481,7 @@ p.footer-class {
 	  color: #B4B2B2;
   line-height: 1.5em;
   font-size: 1em;
-  margin: 1em 0 ; 
+  margin: 1em 0 ;
 }
 .about-bottom {
   padding: 4em 0 0;
@@ -487,7 +515,7 @@ p.footer-class {
 	font-size: 3em;
 	  font-family: 'Michroma';
 	color:#000;
-	
+
 }
 .contact-top p {
   font-size: 1.1em;
@@ -538,7 +566,7 @@ p.footer-class {
 .contact-in p{
 	font-size:1.1em;
 	color: #A5A5A5;
-	line-height: 1.5em;	
+	line-height: 1.5em;
 }
 .address-more h4{
 	color:#000;
@@ -560,7 +588,7 @@ p.footer-class {
 	display:inline-block;
 	vertical-align:top;
 	font-weight: 300;
-	
+
 	width: 100%;
 }
 .b-link-stripe .b-wrapper{
@@ -670,15 +698,15 @@ ul.nav.nav-pills {
 }
 /*--responsive--*/
 @media(max-width:1366px){
-	
+
 }
 @media(max-width:1280px){
-	
+
 }
 @media(max-width:1024px){
 .top-banner h3, .top-banner1 h3, .top-banner2 h3 {
   font-size: 1.6em;
-}	
+}
 .top-banner h3 span, .top-banner1 h3 span, .top-banner2 h3 span {
   font-size: 30px;
 }
@@ -740,7 +768,7 @@ span.menu{
 	border:none;
 	padding:0.7em 0;
 }
-.top-nav ul li.active ,.top-nav ul li:hover{	
+.top-nav ul li.active ,.top-nav ul li:hover{
 	border: none;
 }
 .top-banner h3, .top-banner1 h3, .top-banner2 h3 {
@@ -804,7 +832,7 @@ h1.grid2 {
 }
 .top-banner h3, .top-banner1 h3, .top-banner2 h3 {
   font-size: 1.1em;
-}	
+}
 .top-banner h3 span, .top-banner1 h3 span, .top-banner2 h3 span {
   font-size: 20px;
 }
@@ -844,10 +872,10 @@ h2.grid2 {
 @media(max-width:480px){
 .logo {
   width: 37%;
-}	
+}
 .logo img{
   width: 100%;
-}	
+}
 .search {
   width: 44%;
 }
@@ -905,7 +933,7 @@ ul.social {
 }
 /*--page--*/
 .page-header h3 {
-  font-size: 2em; 
+  font-size: 2em;
 }
 button.btn.btn-lg {
   font-size: 1em;
@@ -956,7 +984,7 @@ h4.grid2 {
 @media(max-width:320px){
 .top-banner, .top-banner1, .top-banner2 {
   padding: 0.5em;
-}	
+}
 .top-banner h3, .top-banner1 h3, .top-banner2 h3 {
   font-size: 0.8em;
 }
@@ -1033,7 +1061,7 @@ h4.grid2 {
 }
 .newsletter input[type="submit"] {
   width: 32%;
-  
+
 }
 .welcome {
   padding: 1em 0;
